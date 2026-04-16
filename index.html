@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nidrelida Creations</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:'Nunito', sans-serif;
+margin:0;
+background:#fffdf8;
+color:#444;
+}
+
+header{
+background:linear-gradient(135deg,#ffd6e7,#d8fff3,#fff4c7);
+padding:20px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+color:#555;
+}
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+padding:60px 20px;
+background:#fff0f6;
+}
+
+.hero img{
+width:220px;
+border-radius:50%;
+border:6px solid #fff;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+margin:20px;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero h1{
+font-size:40px;
+color:#ff7aa8;
+}
+
+.section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+color:#ff7aa8;
+margin-bottom:20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+padding:20px;
+box-shadow:0 6px 12px rgba(0,0,0,0.05);
+text-align:center;
+}
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.portfolio img{
+width:100%;
+border-radius:12px;
+}
+
+.contact{
+text-align:center;
+}
+
+.btn{
+display:inline-block;
+background:#ff7aa8;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+margin-top:15px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#fff0f6;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+
+<img src="yourphoto.jpg" alt="Mich photo">
+
+<div class="hero-text">
+<h1>Nidrelida Creations</h1>
+<p>Hello! I'm <b>Mich</b>, a creative student and beginner digital freelancer who loves bringing ideas to life through design, video, and illustration.</p>
+<a class="btn" href="#contact">Let's Create!</a>
+</div>
+
+</section>
+
+<section class="section" id="about">
+
+<h2>About Me</h2>
+
+<p style="text-align:center;max-width:700px;margin:auto;">
+Hi, I’m Mich, a student eager to learn and practice creative digital skills.  
+I focus on video editing, Canva design, children's storybook illustrations, and UGC videos (excluding skincare products).  
+I’m continuously improving my skills and always strive to deliver creative, consistent, and detail-oriented work.
+</p>
+
+</section>
+
+<section class="section" id="services">
+
+<h2>Services</h2>
+
+<div class="services">
+
+<div class="card">Social Media Post Design</div>
+<div class="card">Video Editing for Short Content</div>
+<div class="card">Children's Storybook Illustrations</div>
+<div class="card">Canva Visual Materials</div>
+<div class="card">UGC Video Creation</div>
+
+</div>
+
+</section>
+
+<section class="section" id="portfolio">
+
+<h2>Portfolio</h2>
+
+<div class="portfolio">
+
+<video controls width="400">
+  <source src="work1.mp4" type="video/mp4">
+</video>
+
+<img src="work2.png">
+
+<img src="work3.png">
+
+<img src="work4.png">
+
+<video controls width="400">
+  <source src="work5.mp4" type="video/mp4">
+</video>
+
+<div style="grid-column:1/-1; text-align:center; margin-top:20px;">
+  <h3>Children's Illustration Book</h3>
+  <p>A short story about a character discovering a mysterious path.</p>
+
+  <div style="max-width:500px; margin:auto;">
+
+    <p><b>Page 1</b></p>
+    <img src="page-01-cover.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+    <p><b>Page 2</b></p>
+    <img src="page-02.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+    <p><b>Page 3</b></p>
+    <img src="page-03.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+    <p><b>Page 4</b></p>
+    <img src="page-04.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+    <p><b>Page 5</b></p>
+    <img src="page-05.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+    <p><b>Page 6</b></p>
+    <img src="page-06.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+    <p><b>Page 7</b></p>
+    <img src="page-07.png" style="width:100%; border-radius:10px; margin-bottom:15px;">
+
+  </div>
+</div>
+
+</section>
+
+<section class="section" id="certificates">
+
+<h2>Certificates</h2>
+
+<div class="portfolio">
+
+<a href="cert1.pdf" target="_blank">
+<img src="cert1.png" alt="Certificate 1">
+</a>
+
+<a href="cert2.pdf" target="_blank">
+<img src="cert2.png" alt="Certificate 2">
+</a>
+
+<a href="cert3.pdf" target="_blank">
+<img src="cert3.png" alt="Certificate 3">
+</a>
+
+<a href="cert4.pdf" target="_blank">
+<img src="cert4.png" alt="Certificate 4">
+</a>
+
+</div>
+
+</section>
+
+<section class="section contact" id="contact">
+
+<h2>Contact</h2>
+
+<p>Interested in working together or starting a creative project?</p>
+
+<p>Email: <b>theshadow6424@gmail.com</b></p>
+
+<a class="btn" href="https://www.fiverr.com/s/vvp4ENN" target="_blank">
+Visit My Fiverr
+</a>
+
+</section>
+
+<footer>
+© 2026 Nidrelida Creations
+</footer>
+
+</body>
+</html>
